@@ -7,7 +7,7 @@ function Footer() {
                 2021 Murat Yüksel
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                <a href="https://github.com/murat-yuksel" target="_blank" className="text-gray-500" title="Github">
+                <a href="https://github.com/muratyukselnet" target="_blank" className="text-gray-500" title="Github">
                     <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                          className="w-5 h-5" viewBox="0 0 24 24">
                         <path xmlns="http://www.w3.org/2000/svg"
