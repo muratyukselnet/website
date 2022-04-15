@@ -18,7 +18,7 @@ function Aboutme() {
                     <br/>
                     <iframe height='350' width='500' className="m-2" frameBorder='0' allowTransparency='true'
                             scrolling='no'
-                            src='https://www.strava.com/activities/5026363236/embed/e1d7829e9e32269085f7ebd744873e5117f72749'></iframe>
+                            src='https://www.strava.com/activities/5026363236/embed/e1d7829e9e32269085f7ebd744873e5117f72749'/>
                     <br/>
                 </p>
 
