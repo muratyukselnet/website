@@ -12,6 +12,7 @@ function Navigation() {
                 <a className="mr-5 hover:text-gray-900" href="/#aboutme">About Me</a>
                 <a className="mr-5 hover:text-gray-900" href="/#photography">Photography</a>
                 <a className="mr-5 hover:text-gray-900" href="/gallery">Galleries</a>
+                <a className="mr-5 hover:text-gray-900" href="/blog">Blog</a>
             </nav>
         </div>
     </header>
