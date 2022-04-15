@@ -3,12 +3,9 @@ import Footer from "../../components/Footer";
 import Head from "next/head";
 import Navigation from "../../components/nav";
 import GalleryPageContent from "../../components/gallery-page";
-import {useRouter} from "next/router";
+import { galleries } from "../../galleries/galleries";
 
-function GalleryPage() {
-    const router = useRouter()
-    const { name } = router.query
-
+function GalleryPage({ page }) {
     return <div>
         <Head>
             <title>Murat Yüksel</title>
@@ -21,9 +18,24 @@ function GalleryPage() {
             <script src="/ga.js" async />
         </Head>
         <Navigation/>
-        <GalleryPageContent name={name}/>
+        <GalleryPageContent page={ page }/>
         <Footer/>
     </div>
 }
 
 export default GalleryPage
+
+export async function getStaticProps({ params: { name } }) {
+    return { props: { page: galleries[name] } };
+}
+
+export async function getStaticPaths() {
+    const paths = Object.keys(galleries).map((c) => {
+        return { params: { name: c } };
+    });
+
+    return {
+        paths,
+        fallback: false,
+    };
+}
