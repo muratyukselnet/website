@@ -1,6 +1,6 @@
 import React from "react";
 
-function Gallery() {
+function Photography() {
     return <section className="text-gray-600 body-font" id="photography">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
             <div className="flex w-full mb-20 flex-wrap">
@@ -124,4 +124,4 @@ function Gallery() {
     </section>
 }
 
-export default Gallery
+export default Photography

@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "../components/Header"
-import Footer from "../components/Footer";
-import Education from "../components/education";
-import Experience from "../components/experience";
-import Photography from "../components/photography";
-import Aboutme from "../components/aboutme";
+import Footer from "../../components/Footer";
 import Head from "next/head";
-import Navigation from "../components/nav";
+import Navigation from "../../components/nav";
+import GalleryPageContent from "../../components/gallery-page";
+import {useRouter} from "next/router";
 
-function HomePage() {
+function GalleryPage() {
+    const router = useRouter()
+    const { name } = router.query
+
     return <div>
         <Head>
             <title>Murat Yüksel</title>
@@ -21,13 +21,9 @@ function HomePage() {
             <script src="/ga.js" async />
         </Head>
         <Navigation/>
-        <Header/>
-        <Experience/>
-        <Education/>
-        <Aboutme/>
-        <Photography/>
+        <GalleryPageContent name={name}/>
         <Footer/>
     </div>
 }
 
-export default HomePage
+export default GalleryPage

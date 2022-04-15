@@ -1,14 +1,10 @@
 import React from "react";
-import Header from "../components/Header"
 import Footer from "../components/Footer";
-import Education from "../components/education";
-import Experience from "../components/experience";
-import Photography from "../components/photography";
-import Aboutme from "../components/aboutme";
 import Head from "next/head";
 import Navigation from "../components/nav";
+import Galleries from "../components/galleries";
 
-function HomePage() {
+function GalleriesPages() {
     return <div>
         <Head>
             <title>Murat Yüksel</title>
@@ -21,13 +17,9 @@ function HomePage() {
             <script src="/ga.js" async />
         </Head>
         <Navigation/>
-        <Header/>
-        <Experience/>
-        <Education/>
-        <Aboutme/>
-        <Photography/>
+        <Galleries/>
         <Footer/>
     </div>
 }
 
-export default HomePage
+export default GalleriesPages
