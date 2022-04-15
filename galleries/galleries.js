@@ -1,5 +1,7 @@
 import { photoGallery as japanese } from './japanese'
+import { photoGallery as schongau } from './schongau'
 
 export const galleries = {
-    japanese: japanese
+    japanese: japanese,
+    schongau: schongau
 };
