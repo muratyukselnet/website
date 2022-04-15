@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Navigation from "../../components/nav";
 import GalleryPageContent from "../../components/gallery-page";
-import Footer from "../../components/Footer";
+import Footer from "../../components/footer";
 import { galleries } from "../../galleries/galleries";
 
 function GalleryPage({ page }) {
