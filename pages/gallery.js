@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../components/Footer";
 import Head from "next/head";
 import Navigation from "../components/nav";
 import Galleries from "../components/galleries";
+import Footer from "../components/Footer";
 
 function GalleriesPages() {
     return <div>
