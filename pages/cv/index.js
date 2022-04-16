@@ -27,10 +27,10 @@ function HomePage() {
         <div>
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-white">
             <nav className="md:ml-auto flex flex-wrap text-base justify-center">
-                <a className="mr-5 hover:text-gray-900" href="/#experience">Experience</a>
-                <a className="mr-5 hover:text-gray-900" href="/#education">Education</a>
-                <a className="mr-5 hover:text-gray-900" href="/#aboutme">About Me</a>
-                <a className="mr-5 hover:text-gray-900" href="/#photography">Photography</a>
+                <a className="mr-5 hover:text-gray-900" href="#experience">Experience</a>
+                <a className="mr-5 hover:text-gray-900" href="#education">Education</a>
+                <a className="mr-5 hover:text-gray-900" href="#aboutme">About Me</a>
+                <a className="mr-5 hover:text-gray-900" href="#photography">Photography</a>
             </nav>
         </div>
         </div>
