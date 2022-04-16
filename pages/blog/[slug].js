@@ -7,6 +7,7 @@ import markdownToHtml from '../../lib/markdownToHtml'
 import Footer from "../../components/footer";
 import Navigation from "../../components/nav";
 import BlogSingle from "../../components/blog-single";
+import React from "react";
 
 export default function Post({ post, morePosts, preview }) {
     const router = useRouter()
@@ -32,6 +33,7 @@ export default function Post({ post, morePosts, preview }) {
                 <BlogSingle post={post}/>
             )}
             <Footer/>
+            <script type="text/javascript" src="/static/js/linksToNewTab.js"/>
         </div>
     )
 }

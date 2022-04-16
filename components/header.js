@@ -17,7 +17,7 @@ function Header() {
                 <h1 className={style.title}>Murat Yüksel
                 </h1>
                 <p>
-                    Software Developer, amateur cyclist, amateur photographer,...
+                    Software Developer, continuous learner, amateur photographer, amateur cyclist,...
                 </p>
                 <div className="flex content-center">
                     <a href="https://github.com/muratyukselnet" target="_blank" className="text-gray-500" title="Github">

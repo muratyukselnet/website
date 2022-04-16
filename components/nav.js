@@ -7,10 +7,8 @@ function Navigation() {
                 <span className="ml-3 text-xl">Murat Yüksel</span>
             </a>
             <nav className="md:ml-auto flex flex-wrap text-base justify-center">
-                <a className="mr-5 hover:text-gray-900" href="/#experience">Experience</a>
-                <a className="mr-5 hover:text-gray-900" href="/#education">Education</a>
-                <a className="mr-5 hover:text-gray-900" href="/#aboutme">About Me</a>
-                <a className="mr-5 hover:text-gray-900" href="/#photography">Photography</a>
+                <a className="mr-5 hover:text-gray-900" href="/">Home</a>
+                <a className="mr-5 hover:text-gray-900" href="/cv">Cv</a>
                 <a className="mr-5 hover:text-gray-900" href="/gallery">Galleries</a>
                 <a className="mr-5 hover:text-gray-900" href="/blog">Blog</a>
             </nav>

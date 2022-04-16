@@ -2,11 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Navigation from "../components/nav";
 import Header from "../components/header"
-import Experience from "../components/experience";
-import Education from "../components/education";
-import Aboutme from "../components/aboutme";
-import Photography from "../components/photography";
-import Footer from "../components/footer";
 
 function HomePage() {
     return <div>
@@ -24,11 +19,6 @@ function HomePage() {
         </Head>
         <Navigation/>
         <Header/>
-        <Experience/>
-        <Education/>
-        <Aboutme/>
-        <Photography/>
-        <Footer/>
     </div>
 }
 
