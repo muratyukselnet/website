@@ -8,7 +8,19 @@ function Experience() {
                     className="sm:text-3xl text-2xl font-medium title-font mb-10 text-gray-900">Experience</h2></div>
                 <div className="py-8 flex flex-wrap md:flex-nowrap">
                     <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                        <span className="font-semibold title-font text-gray-700">October 2020 - current</span>
+                        <span className="font-semibold title-font text-gray-700">June 2022 - current</span>
+                        <span className="mt-1 text-gray-500 text-sm">Munich - Germany</span>
+                    </div>
+                    <div className="md:flex-grow">
+                        <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Talentry - Software
+                            Engineer</h2>
+                        <p className="leading-relaxed">Candidate Relationship Management platform.
+                            Focused on backend implementations with PHP, DDD, Symfony, MariaDB, ElasticSearch, AWS</p>
+                    </div>
+                </div>
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span className="font-semibold title-font text-gray-700">October 2020 - June 2022</span>
                         <span className="mt-1 text-gray-500 text-sm">Munich - Germany</span>
                     </div>
                     <div className="md:flex-grow">
